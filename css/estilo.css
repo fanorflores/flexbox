@@ -7,7 +7,7 @@
 
 .social 
 {
-    max-width: 1024px;
+    width: 80%;
 }
 
 .social ul
@@ -33,3 +33,33 @@ header h1
 {
     color: var(--secondary-color);
 }
+.navigation
+{
+   display: flex;  
+   flex-direction: row;
+   justify-content: space-between;  
+   max-width: 80%;
+   flex-wrap: wrap;
+
+}
+.main-nav
+{
+    flex-grow: 3;
+}
+.main-nav ul
+{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.main-nav ul li
+{
+    padding: 3%;
+}
+.logo{
+    flex-grow: 1;
+    padding-left: 20%;
+}
+
+
