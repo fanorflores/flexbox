@@ -4,7 +4,12 @@
     --primary-color:skyblue;
     --text-color: #373737;
 }
-
+@font-face
+{
+    font-family: 'Futura';
+    src: local('Futura'),
+        url(../assets/futura-font/futura-md.ttf) format('ttf');
+}
 
 .social 
 {
@@ -62,6 +67,7 @@ header h1
 {
     text-decoration: none;
     color: var(--text-color);
+    font-family: 'Futura';
 }
 
 .logo{
