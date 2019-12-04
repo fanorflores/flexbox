@@ -1,0 +1,35 @@
+:root
+{
+    --secondary-color:#E2BD87;
+    --primary-color:skyblue;
+}
+
+
+.social 
+{
+    max-width: 1024px;
+}
+
+.social ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.social ul li
+{
+    padding-right: 10px;
+}
+.social ul li a
+{
+    color: var(--secondary-color) ;
+    font-size: 20px;
+}
+#header-line
+{
+    border-bottom: 1px solid #979797;;
+}
+header h1
+{
+    color: var(--secondary-color);
+}
